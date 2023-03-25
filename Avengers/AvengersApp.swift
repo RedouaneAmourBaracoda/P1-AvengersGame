@@ -11,7 +11,7 @@ import SwiftUI
 struct AvengersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            IntroductionView()
         }
     }
 }

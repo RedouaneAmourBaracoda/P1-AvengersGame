@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B842E0E629C4AC18008D3550 /* AvengersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E0E529C4AC18008D3550 /* AvengersApp.swift */; };
-		B842E0E829C4AC18008D3550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E0E729C4AC18008D3550 /* ContentView.swift */; };
+		B842E0E829C4AC18008D3550 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E0E729C4AC18008D3550 /* IntroductionView.swift */; };
 		B842E0EA29C4AC19008D3550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B842E0E929C4AC19008D3550 /* Assets.xcassets */; };
 		B842E0ED29C4AC19008D3550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B842E0EC29C4AC19008D3550 /* Preview Assets.xcassets */; };
 		B842E0F729C4AC1A008D3550 /* AvengersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E0F629C4AC1A008D3550 /* AvengersTests.swift */; };
 		B842E10129C4AC1A008D3550 /* AvengersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E10029C4AC1A008D3550 /* AvengersUITests.swift */; };
 		B842E10329C4AC1A008D3550 /* AvengersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E10229C4AC1A008D3550 /* AvengersUITestsLaunchTests.swift */; };
+		B842E11129C4B039008D3550 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B842E11029C4B039008D3550 /* Launch Screen.storyboard */; };
+		B842E11329C4C53B008D3550 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E11229C4C53B008D3550 /* Character.swift */; };
+		B842E14529C4F05B008D3550 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B842E14429C4F05B008D3550 /* IndieFlower-Regular.ttf */; };
+		B842E14729C4F22C008D3550 /* AvengeroRegular-zvgl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B842E14629C4F22B008D3550 /* AvengeroRegular-zvgl.ttf */; };
+		B842E14C29C5445D008D3550 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E14B29C5445D008D3550 /* CharacterView.swift */; };
+		B842E15029C63F38008D3550 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E14E29C63F31008D3550 /* Game.swift */; };
+		B842E15329C63FC9008D3550 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E15229C63FC9008D3550 /* CardView.swift */; };
+		B842E15829C66DA0008D3550 /* TeamSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E15729C66DA0008D3550 /* TeamSelectionView.swift */; };
+		B842E15A29C676EC008D3550 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E15929C676EC008D3550 /* Constants.swift */; };
+		B842E15C29C74FC8008D3550 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842E15B29C74FC8008D3550 /* Player.swift */; };
+		B8B9B0F229CC88C100732D0E /* TeamSelectionViewSecondPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9B0F129CC88C100732D0E /* TeamSelectionViewSecondPlayer.swift */; };
+		B8B9B0F629CF1E0200732D0E /* RenameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9B0F529CF1E0200732D0E /* RenameView.swift */; };
+		B8CC959D29CF82C00076DABD /* RenameView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC959C29CF82C00076DABD /* RenameView2.swift */; };
+		B8CC959F29CF85AB0076DABD /* DisplayTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC959E29CF85AB0076DABD /* DisplayTeamView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,7 @@
 /* Begin PBXFileReference section */
 		B842E0E229C4AC18008D3550 /* Avengers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avengers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B842E0E529C4AC18008D3550 /* AvengersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengersApp.swift; sourceTree = "<group>"; };
-		B842E0E729C4AC18008D3550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B842E0E729C4AC18008D3550 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		B842E0E929C4AC19008D3550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B842E0EC29C4AC19008D3550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B842E0F229C4AC1A008D3550 /* AvengersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvengersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +58,21 @@
 		B842E0FC29C4AC1A008D3550 /* AvengersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvengersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B842E10029C4AC1A008D3550 /* AvengersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengersUITests.swift; sourceTree = "<group>"; };
 		B842E10229C4AC1A008D3550 /* AvengersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvengersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B842E10F29C4AC42008D3550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B842E11029C4B039008D3550 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B842E11229C4C53B008D3550 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B842E14429C4F05B008D3550 /* IndieFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IndieFlower-Regular.ttf"; sourceTree = "<group>"; };
+		B842E14629C4F22B008D3550 /* AvengeroRegular-zvgl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvengeroRegular-zvgl.ttf"; sourceTree = "<group>"; };
+		B842E14B29C5445D008D3550 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		B842E14E29C63F31008D3550 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B842E15229C63FC9008D3550 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B842E15729C66DA0008D3550 /* TeamSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionView.swift; sourceTree = "<group>"; };
+		B842E15929C676EC008D3550 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Avengers/Constants.swift; sourceTree = SOURCE_ROOT; };
+		B842E15B29C74FC8008D3550 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B8B9B0F129CC88C100732D0E /* TeamSelectionViewSecondPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSelectionViewSecondPlayer.swift; sourceTree = "<group>"; };
+		B8B9B0F529CF1E0200732D0E /* RenameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameView.swift; sourceTree = "<group>"; };
+		B8CC959C29CF82C00076DABD /* RenameView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameView2.swift; sourceTree = "<group>"; };
+		B8CC959E29CF85AB0076DABD /* DisplayTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTeamView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +123,16 @@
 		B842E0E429C4AC18008D3550 /* Avengers */ = {
 			isa = PBXGroup;
 			children = (
+				B842E10F29C4AC42008D3550 /* Info.plist */,
+				B842E14629C4F22B008D3550 /* AvengeroRegular-zvgl.ttf */,
+				B842E14429C4F05B008D3550 /* IndieFlower-Regular.ttf */,
 				B842E0E529C4AC18008D3550 /* AvengersApp.swift */,
-				B842E0E729C4AC18008D3550 /* ContentView.swift */,
+				B842E15929C676EC008D3550 /* Constants.swift */,
+				B842E14D29C63E42008D3550 /* View */,
+				B842E15129C63F41008D3550 /* ViewModel */,
+				B842E14A29C51348008D3550 /* Model */,
 				B842E0E929C4AC19008D3550 /* Assets.xcassets */,
+				B842E11029C4B039008D3550 /* Launch Screen.storyboard */,
 				B842E0EB29C4AC19008D3550 /* Preview Content */,
 			);
 			path = Avengers;
@@ -125,6 +161,46 @@
 				B842E10229C4AC1A008D3550 /* AvengersUITestsLaunchTests.swift */,
 			);
 			path = AvengersUITests;
+			sourceTree = "<group>";
+		};
+		B842E14A29C51348008D3550 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B842E15B29C74FC8008D3550 /* Player.swift */,
+				B842E11229C4C53B008D3550 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B842E14D29C63E42008D3550 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B842E0E729C4AC18008D3550 /* IntroductionView.swift */,
+				B842E15729C66DA0008D3550 /* TeamSelectionView.swift */,
+				B8B9B0F129CC88C100732D0E /* TeamSelectionViewSecondPlayer.swift */,
+				B8CC959E29CF85AB0076DABD /* DisplayTeamView.swift */,
+				B842E15429C66C8D008D3550 /* CardView */,
+				B8B9B0F529CF1E0200732D0E /* RenameView.swift */,
+				B8CC959C29CF82C00076DABD /* RenameView2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B842E15129C63F41008D3550 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B842E14E29C63F31008D3550 /* Game.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B842E15429C66C8D008D3550 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				B842E15229C63FC9008D3550 /* CardView.swift */,
+				B842E14B29C5445D008D3550 /* CharacterView.swift */,
+			);
+			path = CardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B842E14729C4F22C008D3550 /* AvengeroRegular-zvgl.ttf in Resources */,
+				B842E11129C4B039008D3550 /* Launch Screen.storyboard in Resources */,
 				B842E0ED29C4AC19008D3550 /* Preview Assets.xcassets in Resources */,
+				B842E14529C4F05B008D3550 /* IndieFlower-Regular.ttf in Resources */,
 				B842E0EA29C4AC19008D3550 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B842E0E829C4AC18008D3550 /* ContentView.swift in Sources */,
+				B8CC959F29CF85AB0076DABD /* DisplayTeamView.swift in Sources */,
+				B842E15829C66DA0008D3550 /* TeamSelectionView.swift in Sources */,
+				B842E15029C63F38008D3550 /* Game.swift in Sources */,
+				B8B9B0F229CC88C100732D0E /* TeamSelectionViewSecondPlayer.swift in Sources */,
+				B842E0E829C4AC18008D3550 /* IntroductionView.swift in Sources */,
+				B842E11329C4C53B008D3550 /* Character.swift in Sources */,
+				B842E14C29C5445D008D3550 /* CharacterView.swift in Sources */,
+				B842E15329C63FC9008D3550 /* CardView.swift in Sources */,
 				B842E0E629C4AC18008D3550 /* AvengersApp.swift in Sources */,
+				B842E15C29C74FC8008D3550 /* Player.swift in Sources */,
+				B8CC959D29CF82C00076DABD /* RenameView2.swift in Sources */,
+				B842E15A29C676EC008D3550 /* Constants.swift in Sources */,
+				B8B9B0F629CF1E0200732D0E /* RenameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,15 +504,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avengers/Preview Content\"";
 				DEVELOPMENT_TEAM = CJ4U3HXF7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avengers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,15 +535,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Avengers/Preview Content\"";
 				DEVELOPMENT_TEAM = CJ4U3HXF7J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avengers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
